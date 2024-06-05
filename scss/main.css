@@ -11979,4 +11979,32 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+main {
+  margin-bottom: 270px;
+}
+
+h3, .h3 {
+  font-size: 24px;
+}
+
+li, p {
+  font-size: 16px;
+}
+
+h3, .h3, p, li {
+  font-family: "Almendra SC", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  color: white;
 }/*# sourceMappingURL=main.css.map */
