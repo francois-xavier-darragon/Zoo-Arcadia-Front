@@ -10,12 +10,20 @@ main {
     margin-bottom: 270px;
 }
 
-// footer.footer {
-//     padding: 15px;
-//     position: absolute;
-//     bottom: 0;
-//     width: 100%;
-// }
+footer.footer {
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.custom-col-width{
+    width: 18%;
+}
+
+.custom-col-margin{
+    margin-left: 7%;
+}
 
 h3 {
     font-size: 24px;
@@ -35,4 +43,15 @@ li {
 
 p {
     color: white;
+}
+
+.logo-arcadia-footer {
+    width: 200px;
+    height: 200px;
+}
+
+.icons {
+    margin-right:10px ;
+    width: 40px;
+    height: 40px;
 }
