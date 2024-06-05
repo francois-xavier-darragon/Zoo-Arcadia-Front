@@ -1,2 +1,57 @@
 @import url("/node_modules/bootstrap-icons/font/bootstrap-icons.css");
 @import "_custom.scss";
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  
+main {
+    margin-bottom: 270px;
+}
+
+footer.footer {
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.custom-col-width{
+    width: 18%;
+}
+
+.custom-col-margin{
+    margin-left: 7%;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+li, p {
+    font-size: 16px;
+}
+
+h3, p, li {
+    font-family: $font-family-headline-sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    color: white;
+}
+
+.logo-arcadia-footer {
+    width: 200px;
+    height: 200px;
+}
+
+.icons {
+    margin-right:10px ;
+    width: 40px;
+    height: 40px;
+}
