@@ -33,7 +33,7 @@ li, p {
     font-size: 16px;
 }
 
-h3, p, li {
+h2, h3, p, li {
     font-family: $font-family-headline-sans-serif;
 }
 
@@ -54,4 +54,10 @@ p {
     margin-right:10px ;
     width: 40px;
     height: 40px;
+}
+
+.btn-gradiant {
+    background: linear-gradient(to right, $secondary, $primary);
+    color:white;
+    font-family: $font-family-headline-sans-serif;
 }
