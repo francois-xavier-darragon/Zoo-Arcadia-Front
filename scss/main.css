@@ -11985,6 +11985,13 @@ html {
   min-height: 100%;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  padding-bottom: 270px;
+}
+
 main {
   margin-bottom: 270px;
 }
@@ -12039,4 +12046,8 @@ p {
   background: linear-gradient(to right, #B6D438, #EA8929);
   color: white;
   font-family: "Almendra SC", sans-serif;
+}
+
+.card-habitat {
+  width: 400;
 }/*# sourceMappingURL=main.css.map */

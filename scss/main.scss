@@ -4,8 +4,15 @@
 html {
     position: relative;
     min-height: 100%;
-  }
-  
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding-bottom: 270px; 
+}
+
 main {
     margin-bottom: 270px;
 }
@@ -61,3 +68,8 @@ p {
     color:white;
     font-family: $font-family-headline-sans-serif;
 }
+
+.card-habitat {
+    width: 400;
+}
+
