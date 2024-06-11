@@ -12031,6 +12031,10 @@ p {
   color: white;
 }
 
+.section-title {
+  font-size: 20px;
+}
+
 .logo-arcadia-footer {
   width: 200px;
   height: 200px;
@@ -12049,5 +12053,31 @@ p {
 }
 
 .card-habitat {
-  width: 400;
+  width: 400px;
+}
+
+.card-enclose {
+  width: 300px;
+  height: 400px;
+}
+
+.card-notice {
+  width: 300px;
+  height: 200px;
+}
+
+.circle-container {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=main.css.map */
