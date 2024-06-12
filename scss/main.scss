@@ -4,15 +4,22 @@
 html {
     position: relative;
     min-height: 100%;
-  }
-  
-main {
-    margin-bottom: 270px;
 }
+
+// body {
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: border-box;
+//     padding-bottom: 270px; 
+// }
+
+// main {
+//     margin-bottom: 270px;
+// }
 
 footer.footer {
     padding: 15px;
-    position: absolute;
+    position: static;
     bottom: 0;
     width: 100%;
 }
@@ -33,7 +40,7 @@ li, p {
     font-size: 16px;
 }
 
-h3, p, li {
+h2, h3, h5, p, li {
     font-family: $font-family-headline-sans-serif;
 }
 
@@ -45,6 +52,10 @@ p {
     color: white;
 }
 
+.section-title {
+    font-size: 20px;
+}
+
 .logo-arcadia-footer {
     width: 200px;
     height: 200px;
@@ -54,4 +65,59 @@ p {
     margin-right:10px ;
     width: 40px;
     height: 40px;
+}
+
+.btn-gradiant {
+    background: linear-gradient(to right, $secondary, $primary);
+    color:white;
+    font-family: $font-family-headline-sans-serif;
+}
+
+
+.card-habitat {
+    width: 400px;
+}
+
+.card-enclose {
+    width: 300px;
+    height: 400px;
+}
+
+.card-notice{
+    width: 300px;
+    height: 200px;
+}
+
+.enclosure-carousel-control-prev-icon,
+.enclosure-carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-image: none;
+}
+
+.enclosure-carousel-control-next-icon:after{
+  content: '->';
+  font-size: 55px;
+  color: $dark;
+}
+
+.enclosure-carousel-control-prev-icon:after {
+  content: '<-';
+  font-size: 55px;
+  color: $dark;;
+}
+
+.circle-container {
+    width: 50px; 
+    height: 50px; 
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-container img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
 }
