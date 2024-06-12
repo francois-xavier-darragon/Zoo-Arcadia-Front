@@ -11985,9 +11985,15 @@ html {
   min-height: 100%;
 }
 
-footer.footer {
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  margin-top: 0;
   padding: 15px;
-  position: static;
   bottom: 0;
   width: 100%;
 }
@@ -12088,4 +12094,13 @@ p {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+#formSignin,
+#formRegister,
+#formAccount {
+  margin: 20px;
+  padding: 20px;
+  border: solid #B6D438;
+  border-radius: 30px;
 }/*# sourceMappingURL=main.css.map */

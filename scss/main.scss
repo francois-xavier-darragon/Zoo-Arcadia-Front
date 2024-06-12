@@ -6,20 +6,21 @@ html {
     min-height: 100%;
 }
 
-// body {
-//     margin: 0;
-//     padding: 0;
-//     box-sizing: border-box;
-//     padding-bottom: 270px; 
-// }
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // padding-bottom: 270px; 
+}
 
 // main {
-//     margin-bottom: 270px;
+//     margin-bottom: 100px;
 // }
 
-footer.footer {
+footer {
+    margin-top: 0;
     padding: 15px;
-    position: static;
+    // position: absolute;
     bottom: 0;
     width: 100%;
 }
@@ -73,7 +74,6 @@ p {
     font-family: $font-family-headline-sans-serif;
 }
 
-
 .card-habitat {
     width: 400px;
 }
@@ -120,4 +120,15 @@ p {
     width: 100%; 
     height: 100%; 
     object-fit: cover;
+}
+
+
+//Signin pages
+#formSignin,
+#formRegister,
+#formAccount {
+    margin:20px;
+    padding: 20px;
+    border: solid $secondary;
+    border-radius: 30px;
 }
