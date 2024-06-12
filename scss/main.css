@@ -11985,20 +11985,9 @@ html {
   min-height: 100%;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  padding-bottom: 270px;
-}
-
-main {
-  margin-bottom: 270px;
-}
-
 footer.footer {
   padding: 15px;
-  position: absolute;
+  position: static;
   bottom: 0;
   width: 100%;
 }
@@ -12019,7 +12008,7 @@ li, p {
   font-size: 16px;
 }
 
-h2, .h2, h3, .h3, p, li {
+h2, .h2, h3, .h3, h5, .h5, p, li {
   font-family: "Almendra SC", sans-serif;
 }
 
