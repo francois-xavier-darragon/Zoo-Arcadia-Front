@@ -12061,6 +12061,12 @@ p {
   height: 200px;
 }
 
+.customp-carousel-control {
+  height: 300px;
+  position: absolute;
+  top: 1460px;
+}
+
 .enclosure-carousel-control-prev-icon,
 .enclosure-carousel-control-next-icon {
   height: 100px;
