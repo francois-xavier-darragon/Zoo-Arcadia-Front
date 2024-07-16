@@ -12014,16 +12014,17 @@ li, p {
   font-size: 16px;
 }
 
-h2, .h2, h3, .h3, h5, .h5, p, li {
+h2, .h2, h3, .h3, h5, .h5, li, .text-footer {
   font-family: "Almendra SC", sans-serif;
+}
+
+p {
+  font-family: "Hind Madurai", serif;
+  color: white;
 }
 
 li {
   list-style: none;
-}
-
-p {
-  color: white;
 }
 
 .section-title {
@@ -12052,12 +12053,10 @@ p {
 }
 
 .card-enclose {
-  width: 300px;
   height: 400px;
 }
 
 .card-notice {
-  width: 300px;
   height: 200px;
 }
 
@@ -12084,6 +12083,15 @@ p {
   content: "<-";
   font-size: 55px;
   color: #4B3B1A;
+}
+
+.card-enclose, .card-notice {
+  width: 300px;
+}
+
+.card-habitat, .card-enclose, .card-notice {
+  border: 1px solid;
+  border-color: #B6D438;
 }
 
 .circle-container {
