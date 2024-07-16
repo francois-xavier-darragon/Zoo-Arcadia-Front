@@ -41,16 +41,17 @@ li, p {
     font-size: 16px;
 }
 
-h2, h3, h5, p, li {
+h2, h3, h5, li, .text-footer, .section-title {
     font-family: $font-family-headline-sans-serif;
+}
+
+p {
+    font-family: $font-family-serif;
+    color: white;
 }
 
 li {
     list-style: none;
-}
-
-p {
-    color: white;
 }
 
 .section-title {
@@ -79,12 +80,10 @@ p {
 }
 
 .card-enclose {
-    width: 300px;
     height: 400px;
 }
 
-.card-notice{
-    width: 300px;
+.card-notice {
     height: 200px;
 }
 
@@ -110,7 +109,16 @@ p {
 .enclosure-carousel-control-prev-icon:after {
   content: '<-';
   font-size: 55px;
-  color: $dark;;
+  color: $dark;
+}
+  
+.card-enclose, .card-notice  {
+    width: 300px;
+}
+
+.card-habitat, .card-enclose, .card-notice {
+    border: 1px solid;
+    border-color: $secondary;
 }
 
 .circle-container {
