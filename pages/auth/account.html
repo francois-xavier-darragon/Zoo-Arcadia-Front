@@ -1,0 +1,71 @@
+<div class="connexion text-center text-white">
+  <div class="connexion-content">
+    <h1>Mon Compte</h1>
+  </div>
+</div>
+
+<div class="container">
+  <form id="formAccount">
+    <div class="mb-3">
+      <label for="avatar" class="form-label">Avatar</label>
+      <input
+        type="file"
+        class="form-control"
+        id="avatar"
+        accept="image/*"
+      />
+    </div>
+    <figure class="mb-3">
+      <img id="avatar-preview" src="#" alt="Aperçu de l'avatar" style="display:none; max-width: 100%; height: auto;" />
+      <figcaption>Ajoutez une image pour votre avatar</figcaption>
+    </figure>
+    <div class="mb-3">
+      <label for="firstNameInput" class="form-label">Nom</label>
+      <input
+        type="text"
+        class="form-control"
+        id="firstNameInput"
+        placeholder="Votre nom"
+        value="John"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="lastNameInput" class="form-label">Prénom</label>
+      <input
+        type="text"
+        class="form-control"
+        id="lastNameInput"
+        placeholder="Votre prénom"
+        value="Doe"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Adresse email</label>
+      <input
+        type="text"
+        class="form-control"
+        id="email"
+        placeholder="Votre adresse email"
+        value="email"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="passWordInput" class="form-label">Mot de passe</label>
+      <input type="password" class="form-control" id="passWordInput">
+      <small id="passwordHelp" class="form-text text-muted">Laissez vide pour ne pas modifier.</small>
+    </div>
+    <div class="mb-3">
+      <label for="validatePassWordInput" class="form-label">Validez votre mot de passe</label>
+      <input type="password" class="form-control" id="validatePassWordInput">
+      <small id="passwordHelp" class="form-text text-muted">Laissez vide pour ne pas modifier.</small>
+    </div>
+    <div class="text-center pt-5">
+      <button type="submit" class="btn btn-gradiant" style="margin-right: 10px;">
+        Modifer vos informations
+      </button>
+      <button type="button" class="btn btn-danger">Supprimer mon compte</button>
+    </div>
+
+  </form>
+</div>
+

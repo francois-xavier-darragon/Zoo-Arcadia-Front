@@ -1,0 +1,56 @@
+<div class="connexion text-center text-white">
+    <div class="connexion-content">
+        <h1>Inscription</h1>
+    </div>
+</div>
+
+<div class="container mt-4 mb-5">
+    <form id="formRegister">
+        <div class="mb-3">
+          <label for="firstNameInput" class="form-label">Nom</label>
+          <input type="text" class="form-control" id="firstNameInput" placeholder="Votre nom" name="firstName" >
+          <div class="invalid-feedback">
+            Le nom est requis
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="lastNameInput" class="form-label">Prénom</label>
+          <input type="text" class="form-control" id="lastNameInput" placeholder="Votre prénom" name="lastName">
+          <div class="invalid-feedback">
+            Le prénom est requis
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="emailInput" class="form-label">Email</label>
+          <input type="email" class="form-control" id="emailInput" placeholder="test@eamil.com" name="email">
+          <div class="invalid-feedback">
+            Le mail n'est pas au bon format
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="passWordInput" class="form-label">Mot de passe</label>
+          <input type="password" class="form-control" id="passWordInput" name="passWord">
+          <div class="invalid-feedback">
+            Le mot de passe n'est pas assez robuste : Au moins 8 caractère, comprenant au moin 1 lettre majustcule, 1 minuscule, 1 chiffre et 1 caractère spéciale 
+          </div>
+          <div class="valid-feedback">
+            Le mot de passe est robuste
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="validatePassWordInput" class="form-label">Confirmez votre mot de passe</label>
+          <input type="password" class="form-control" id="validatePassWordInput">
+          <div class="invalid-feedback">
+            Les mots de passes ne corresponde pas !
+          </div>
+          <div class="valid-feedback">
+            Les mots de passes corresponde
+          </div>
+        <div class="text-center pt-5">
+          <button type="button" class="btn btn-gradiant" id="btn-validate" disabled>Inscription</button>
+        </div>
+      </form>
+      <div class="text-center pt-5">
+        <a href="/signin">Vous aves déjà compte ? connecetez-vous ici ! </a>
+      </div>
+</div>
